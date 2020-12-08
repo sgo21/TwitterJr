@@ -1,0 +1,68 @@
+
+html {
+    background-color: #F5F8FA;
+    text-align: center;
+}
+
+#root{
+    width: 50%;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+#feed {
+    text-align: left;
+}
+
+#header-title {
+    color: #3798DC;
+    text-align: center;
+    margin: 10px;
+}
+
+.title{
+    white-space: pre;
+}
+
+.icon-button {
+    background-color: white;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: pre;
+}
+
+.content {
+    word-wrap: break-word;
+}
+
+#unlike-button {
+    background-color: white;
+    border: none;
+    color: #E0395F;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#new-tweet-button, #switch-ui-button {
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    white-space: pre;
+}
+
+#retweet-card {
+    width: 75%;
+    word-wrap: break-word;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#replies-list {
+    width: 100%;
+}
+
