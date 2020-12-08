@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Twitter Jr.</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <!-- TODO (optional): Add link to bulma here -->
+        <!-- <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link id="ui" data-ui="default" rel="stylesheet" href="style.css" />
+    </head>
+
+    <header><h1 id="header-title" class=title><i class="fas fa-dove"></i>  Twitter Jr.</h1></header>
+
+    <body>
+        <div id="root">
+            <button id="new-tweet-button" class="button is-info is-rounded" type="button"><i class="fas fa-pen"></i>  Create Tweet</button>
+            <button id="switch-ui-button" class="button is-rounded is-info is-outlined" type="button"><i class="far fa-moon"></i></button>
+            <div id="feed"></div>
+        </div>
+
+        <!-- Include links to JavaScript files below -->
+        <!-- TODO: Add link to jQuery here -->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/axios/dist/axios.js"></script>
+        <script src="mocktwitter.js" type="module"></script>
+    </body>
+    
+</html>

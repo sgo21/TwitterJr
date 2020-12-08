@@ -1,0 +1,18 @@
+{
+  "name": "a09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mocktwitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "axios": "^0.21.0",
+    "browser-sync": "^2.26.13",
+    "bulma": "^0.9.1",
+    "jquery": "^3.5.1"
+  }
+}
